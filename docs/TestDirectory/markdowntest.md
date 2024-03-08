@@ -17,6 +17,11 @@ echo "this is a command"
 > OUTPUT text
 > [01/02/2023] <QUAD> Project Report Due :( !!
 
+```cs
+public static async Task<bool>
+```
+
+
 *Bold Text*
 
 **Italics**
