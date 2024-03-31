@@ -4,8 +4,8 @@ theme:
   features:
   - navigation.tabs
   - navigation.sections
-  - navigation.indexes
-  - navigation.path
+  # - navigation.indexes
+  # - navigation.path
   - navigation.expand
   - navigation.top
   - toc.integrate
@@ -46,17 +46,19 @@ plugins:
 
   - multirepo:
       cleanup: true
-      repos:
-        - section: Resilient eShop
+      nav_repos:
+        - name: Resilient eShop Test
           import_url: 'https://github.com/Group-50/resilient-eshop.git?branch=main'
+          imports: [docs/index.md]
 
 site_url: https://group-50.github.io/docs/
 
-# nav:
-#   - Home: index.md
-#   - Development Guides: 
-#     - development-guides/index.md
-#     - Docker: development-guides/docker/index.md
-#     - Helm: development-guides/helm/index.md
-#     - Kubernetes: development-guides/kubernetes/index.md
-#     - Terraform: development-guides/terraform/index.md
+nav:
+  - Home: index.md
+  - Development Guides: 
+    - development-guides/index.md
+    - Docker: development-guides/docker/index.md
+    - Helm: development-guides/helm/index.md
+    - Kubernetes: development-guides/kubernetes/index.md
+    - Terraform: development-guides/terraform/index.md
+  - Resilient eShop: '!import https://github.com/Group-50/resilient-eshop.git'
