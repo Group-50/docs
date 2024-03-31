@@ -2,10 +2,12 @@ site_name: My Docs
 theme:
   name: material
   features:
-  - navigation.tabs
+  # - navigation.tabs
   - navigation.sections
-  - toc.integrate
+  - navigation.indexes
+  - navigation.path
   - navigation.top
+  - toc.integrate
   - search.suggest
   - search.highlight
   - content.tabs.link
