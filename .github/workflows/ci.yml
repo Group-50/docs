@@ -6,6 +6,14 @@ on:
       - main
 permissions:
   contents: write
+
+workflow_dispatch:
+  inputs:
+    deploy:
+      type: boolean
+      required: false
+      default: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
