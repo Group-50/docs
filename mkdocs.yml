@@ -44,7 +44,15 @@ plugins:
   - multirepo:
       cleanup: true
       repos:
-        - section: Testing
-          import_url: 'https://github.com/Group-50/resilient-eshop.git?branch=feature/mkdocs'
+        - section: Resilient eShop
+          import_url: 'https://github.com/Group-50/resilient-eshop.git?branch=main'
 
 site_url: https://group-50.github.io/docs/
+
+nav:
+  - Home: index.md
+  - Development Guides: /development-guides/index.md
+    - Docker: /docker/
+    - Helm: /helm/
+    - Kubernetes: /kubernetes/
+    - Terraform: /terraform/
