@@ -50,9 +50,9 @@ plugins:
 site_url: https://group-50.github.io/docs/
 
 nav:
-  - 'Home': index.md
-  - 'Development Guides': /development-guides/index.md
-    - 'Docker': /docker/
-    - 'Helm': /helm/
-    - 'Kubernetes': /kubernetes/
-    - 'Terraform': /terraform/
+  - Home: index.md
+  - Development Guides: /development-guides/index.md
+    - Docker: development-guides/docker/index.md
+    - Helm: development-guides/helm/index.md
+    - Kubernetes: development-guides/kubernetes/index.md
+    - Terraform: development-guides/terraform/index.md
