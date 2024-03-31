@@ -21,6 +21,7 @@ echo "this is a command"
 public static async Task<bool>
 ```
 
+!!! note This is a note
 
 *Bold Text*
 
