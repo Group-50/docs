@@ -41,4 +41,10 @@ markdown_extensions:
 plugins:
   - tags
 
+  - multirepo:
+      cleanup: true
+      repos:
+        - section: Testing
+          import_url: 'https://github.com/Group-50/resilient-eshop.git?branch=feature/mkdocs'
+
 site_url: https://group-50.github.io/docs/
