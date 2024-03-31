@@ -6,11 +6,11 @@ on:
       - main
 
   workflow_dispatch:
-  inputs:
-    deploy:
-      type: boolean
-      required: false
-      default: false
+    inputs:
+      deploy:
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
