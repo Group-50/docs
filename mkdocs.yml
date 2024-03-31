@@ -61,4 +61,4 @@ nav:
     - Helm: development-guides/helm/index.md
     - Kubernetes: development-guides/kubernetes/index.md
     - Terraform: development-guides/terraform/index.md
-  - Resilient eShop: '!import https://github.com/Group-50/resilient-eshop.git'
+  - Resilient eShop: '!import https://github.com/Group-50/resilient-eshop.git?branch=main'
