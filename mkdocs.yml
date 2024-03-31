@@ -2,10 +2,11 @@ site_name: My Docs
 theme:
   name: material
   features:
-  # - navigation.tabs
+  - navigation.tabs
   - navigation.sections
   - navigation.indexes
   - navigation.path
+  - navigation.expand
   - navigation.top
   - toc.integrate
   - search.suggest
@@ -51,11 +52,11 @@ plugins:
 
 site_url: https://group-50.github.io/docs/
 
-nav:
-  - Home: index.md
-  - Development Guides: 
-    - development-guides/index.md
-    - Docker: development-guides/docker/index.md
-    - Helm: development-guides/helm/index.md
-    - Kubernetes: development-guides/kubernetes/index.md
-    - Terraform: development-guides/terraform/index.md
+# nav:
+#   - Home: index.md
+#   - Development Guides: 
+#     - development-guides/index.md
+#     - Docker: development-guides/docker/index.md
+#     - Helm: development-guides/helm/index.md
+#     - Kubernetes: development-guides/kubernetes/index.md
+#     - Terraform: development-guides/terraform/index.md
