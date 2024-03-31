@@ -4,15 +4,17 @@ on:
     branches:
       - master 
       - main
-permissions:
-  contents: write
 
-workflow_dispatch:
+  workflow_dispatch:
   inputs:
     deploy:
       type: boolean
       required: false
       default: false
+
+permissions:
+  contents: write
+
 
 jobs:
   deploy:
